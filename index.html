@@ -2,11 +2,81 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Evelyn Jhoana Cardenas | Software</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+            color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #212529;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .card-title {
+            color: #b388ff;
+            font-weight: 600;
+        }
+
+        .btn-github {
+            background-color: #6f42c1;
+            color: white;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .btn-github:hover {
+            background-color: #8b5cf6;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            text-align: center;
+            width: 100%;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Hola! Soy Evelyn Jhoana Cardenas, Estudiante de Software.</h1>
-    <p>Esta es mi página web personal, gracias por mirar. ¡Espero que ronto este llena de proyectos!</p>
-    <a href="https://github.com/TuUsuario">Visita mi GitHub :)</a>
+
+    <div class="container text-center">
+        <div class="card p-5 col-md-6 mx-auto">
+            <img src="https://github.com/user-attachments/assets/8491916d-ddb0-46c8-942d-15feb997fd09"
+                 alt="Evelyn avatar" class="rounded-circle mx-auto mb-3" width="130">
+            <h1 class="card-title mb-3">✨ ¡Hola! Soy Evelyn Jhoana Cardenas</h1>
+            <p class="card-text">
+                Estudiante de <strong>Ingeniería de Software</strong> en la <em>Universidad Técnica de Ambato - FISEI</em>.<br>
+                Gracias por visitar mi página personal 💻💜. <br> ¡Pronto estará llena de proyectos interesantes!
+            </p>
+            <a href="https://github.com/Jhoana2026" target="_blank" class="btn btn-github mt-3">
+                <i class="bi bi-github"></i> Visita mi GitHub
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Evelyn Jhoana Cardenas | Portafolio de Software
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
